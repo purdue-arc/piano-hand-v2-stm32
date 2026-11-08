@@ -102,10 +102,7 @@ piano-hand-stm32/
 
 ---
 
-## 5. Team Roles
-
-| Member | Role | Focus Area |
-|---|---|---|
+## 5. Subtopics in development
 BLE controller, song parser, command streaming pipeline, STM32 state machine, command queues, ring buffers, PCA9685 I²C driver, PWM pulse calibration, Stepper driver UART/pulses, acceleration profiles, homing, PCB/breadboard wiring, power distribution, test fixtures
 
 ---
