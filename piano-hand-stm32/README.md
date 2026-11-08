@@ -84,18 +84,18 @@ piano-hand-stm32/
 
 ## 4. Current Status
 
-### ✅ Complete & Working
+### Complete & Working
 - **Host Protocol Builder & Validator** (`host/protocol.py`): Zero-dependency command encoding, bounds checking for fingers (1–5) and int32 key displacements.
 - **Canonical Song Parser** (`host/song_parser.py`): Ingests canonical and legacy formats, normalizes ms/seconds timestamps, skips comments, validates monotonic timing.
 - **Host BLE Controller** (`host/controller.py`): Non-blocking asynchronous event loop, scheduled servo release without timing drift, configurable BLE UUIDs, automatic reset and retry loops.
 - **Unit Test Suite** (`tests/host/`): Comprehensive pytest coverage for protocol, parser, and note mapping stubs.
 - **Complete Architecture & Protocol Documentation** (`docs/`): Detailed sequence diagrams, packet framing, hardware specs, and safety homing definitions.
 
-### ⚠️ Provisional (Requires Project Sign-off)
+### Provisional (Requires Project Sign-off)
 - **Pin Allocations** (`hardware/pin_mapping.md`): Peripheral pin assignments (I²C, UART instances) marked provisional pending schematic review.
 - **Note-to-Step Calibration** (`host/note_map.py`): Functional translation stub awaiting physical key distance measurements.
 
-### ❌ Requires Physical Hardware Verification
+### Requires Physical Hardware Verification
 - **PCA9685 Physical Bus Acknowledgment**: Hardware I²C signal integrity and rise times under 50 Hz multi-servo loading.
 - **Stepper Physical Homing**: Installation and endstop interrupt integration with physical limit switches.
 - **BLE Module Pairing & Throughput**: On-target BLE latency benchmarking during rapid chord sequences.
@@ -106,11 +106,7 @@ piano-hand-stm32/
 
 | Member | Role | Focus Area |
 |---|---|---|
-| **Member 1** | Host Systems Engineer | BLE controller, song parser, command streaming pipeline |
-| **Member 2** | Embedded Software Lead | STM32 state machine, command queues, ring buffers |
-| **Member 3** | Actuator Drivers Dev | PCA9685 I²C driver, PWM pulse calibration |
-| **Member 4** | Motion & Kinematics Dev | Stepper driver UART/pulses, acceleration profiles, homing |
-| **Member 5** | QA & Electrical Integrator | PCB/breadboard wiring, power distribution, test fixtures |
+BLE controller, song parser, command streaming pipeline, STM32 state machine, command queues, ring buffers, PCA9685 I²C driver, PWM pulse calibration, Stepper driver UART/pulses, acceleration profiles, homing, PCB/breadboard wiring, power distribution, test fixtures
 
 ---
 
