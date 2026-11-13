@@ -1,0 +1,13 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,805,1,22u,
+C2,805,1,100 μF,
+J1,BarrelJack_SwitchcraftConxall_RAPC10U_Horizontal,1,Barrel_Jack,
+"M1, M10, M11, M2, M3, M4, M5, M6, M8, M9",PinHeader_1x03_P2.54mm_Vertical,10,Motor_Servo,
+M7,PinHeader_1x04_P2.54mm_Vertical,1,Stepper_Motor,
+"Q1, Q2",DirectFET_ST,2,IRF6623,
+"R1, R14",805,2,10k,
+"R10, R11, R12, R13, R15, R16, R2, R3, R4, R5, R6, R7, R8, R9",805,14,1K,
+U1,MODULE_DEVKIT_V1_ESP32-WROOM-32,1,ESP32-DEVKITC-32UE,
+"U2, U5, U6",LM2596,3,LM2596,
+U3,Pololu_Breakout-16_15.2x20.3mm,1,A4988_Stepper_Motor_Driver,
+U4,PinHeader_1x04_P2.54mm_Vertical,1,~,
