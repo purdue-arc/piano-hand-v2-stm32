@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Schematic")(type "KiCad")(uri "${KIPRJMOD}/Schematic.kicad_sym")(options "")(descr ""))
+  (lib (name "A4988")(type "KiCad")(uri "C:/Users/bumbl/OneDrive/Documents/GitHub/Piano_Hand_Electronics/footprints/A4988/A4988.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX9814")(type "KiCad")(uri "C:/Users/bumbl/OneDrive/Documents/GitHub/Piano_Hand_Electronics/footprints/MAX9814/MAX9814.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32_DEVKITC_32UE")(type "Legacy")(uri "C:/Users/bumbl/OneDrive/Documents/GitHub/Piano_Hand_Electronics/footprints/ESP32_DEVKITC_32UE/ESP32_DEVKITC_32UE.lib")(options "")(descr ""))
+)
