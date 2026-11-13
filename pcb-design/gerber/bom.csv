@@ -1,0 +1,19 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+C1,1,22u,,,,Capacitor_SMD:C_0805_2012Metric,https://www.mouser.com/ProductDetail/Murata-Electronics/GXT21BR61C226ME13L?qs=d0WKAl%252BL4Kb74FO4906dbA%3D%3D
+C2,1,100 uF,,,,Capacitor_SMD:C_1206_3216Metric,https://www.mouser.com/ProductDetail/Murata-Electronics/GRM31CR61A107MEA8K?qs=hd1VzrDQEGiKPwOlEhCnYw%3D%3D
+"C3,C4",2,10uF,,,,Capacitor_SMD:C_0805_2012Metric,https://www.digikey.com/en/products/detail/yageo/CC0805KRX5R7BB106/7164386
+"H1,H2,H3,H4",4,MountingHole,,Excluded from BOM,,MountingHole:MountingHole_4.3mm_M4,~
+J1,1,Barrel_Jack,,,,Connector_BarrelJack:BarrelJack_SwitchcraftConxall_RAPC10U_Horizontal,https://www.sameskydevices.com/product/resource/pj-007.pdf
+"M1,M2,M3,M4,M5,M6,M8,M9,M10,M11",10,Motor_Servo,,,,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+M7,1,Stepper_Motor,,,,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,~
+"Q1,Q3",2,IRLZ44N,,,,Package_TO_SOT_THT:TO-220-3_Vertical,https://www.infineon.com/assets/row/public/documents/24/49/infineon-irlz44n-datasheet-en.pdf?fileId=5546d462533600a40153567217c32725
+"R1,R14,R28,R35",4,10k,,,,Resistor_SMD:R_0805_2012Metric,https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535
+"R2,R15",2,100,,,,Resistor_SMD:R_0805_2012Metric,https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100RL/726527
+"R3,R4,R5,R6,R7,R8,R9,R10,R11,R12",10,1K,,,,Resistor_SMD:R_0805_2012Metric,https://www.digikey.com/en/products/detail/vishay-dale/CRCW08051K00FKEA/1175637
+"R13,R16",2,1k,,,,Resistor_SMD:R_0805_2012Metric,https://www.digikey.com/en/products/detail/vishay-dale/CRCW08051K00FKEA/1175637
+"R23,R24,R25,R26,R27,R36,R37,R38,R39,R40",10,220,,,,Resistor_SMD:R_0805_2012Metric,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT220R/1760238
+U1,1,ESP32-DEVKITC-32UE,,,,DEVKIT_V1_ESP32-WROOM-32:MODULE_DEVKIT_V1_ESP32-WROOM-32,~
+"U2,U5,U6",3,LM2596,,,,PCB_Components:LM2596,https://www.amazon.com/Seloky-Converter-Adjustable-Electronic-Stabilizer/dp/B0DBVYP91F/ref=sr_1_3?dib=eyJ2IjoiMSJ9.gSGS4M9_wIZLN6Uvr_MjEmGislvQI2TVUWZzfQ0nJGJGK4fEo-jYmvPtfpz7-oTs2W2iOYte_rmmjiFmmlpWUa_naMge3IPagA44_oYTJ7kgX8P3oeTZRbdQh4jjdc0vj1_Muz4PUJ2IKenq_cJ-auyAyUM17sJp3iNAw7iWL3Q_7ukZsq1Jcf_ds2B6Z5ZqhxwpexNiKZBW_khrRUTeRMG_yGInbnphnheVp85bV5U.-R28fZx1V6UoGxctkZC5sMs2h8oghwxLLBdkZQADpcc&dib_tag=se&keywords=LM2596&qid=1775269932&sr=8-3&th=1
+U3,1,A4988_Stepper_Motor_Driver,,,,Module:Pololu_Breakout-16_15.2x20.3mm,https://www.pololu.com/product/2980/pictures
+U4,1,~,,,,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,~
+"U7,U8",2,PCA9685PW,,,,Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm,http://www.nxp.com/docs/en/data-sheet/PCA9685.pdf
